@@ -18,7 +18,15 @@ body {
 }
 
 .header h1 {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
     font-size: 30px;
+    line-height: 42px;
+    font-weight: 600;
+    letter-spacing: -0.2px;
+    color: #000;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: geometricPrecision;
 }
 
 .section {
