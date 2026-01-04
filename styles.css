@@ -13,7 +13,6 @@ body {
     display: flex;
     flex-direction: column;
     font-family: 'Poppins', sans-serif;
-    margin: 0;
 }
 
 .header {
@@ -142,9 +141,4 @@ main {
     opacity: 0.85;
     filter: brightness(0) invert(1);
     transition: opacity 0.2s ease, transform 0.2s ease;
-}
-
-.social-icons img:hover {
-    background: rgba(255, 255, 255, 0.06);
-    transform: none;
 }
