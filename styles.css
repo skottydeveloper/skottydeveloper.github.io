@@ -67,6 +67,33 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 80px 16px;
+    text-align: center;
+}
+
+.section-inner {
+    max-width: 720px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-inner h2 {
+    margin: 0;
+    font-size: 19px;
+    line-height: 26px;
+    font-weight: 500;
+    letter-spacing: -0.1px;
+    color: #000;
+}
+
+.section-inner p {
+    margin: 16px;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 300;
+    color: rgba(118,118,118);
+    max-width: 390px;
 }
 
 .section-white {
