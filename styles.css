@@ -101,6 +101,33 @@ main {
     width: 100%;
 }
 
+.section-inner h2:not(:first-child) {
+    margin-top: 64px;
+}
+
+.page-privacy .header {
+    height: 140px;
+}
+
+.page-privacy .header h1 {
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.page-privacy main {
+    background: #F8FFFF;
+}
+
+.page-privacy .section-inner {
+    align-items: flex-start;
+    text-align: left;
+}
+
+.page-privacy .section-inner p {
+    margin-left: 0;
+    margin-right: 0;
+}
+
 .app-grid {
     width: 100%;
     display: flex;
