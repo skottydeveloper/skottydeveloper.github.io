@@ -1,4 +1,4 @@
-# skottydeveloper.github.io
+# Personal Website
 ## Summary
 This repository contains the source code for my personal iOS development website, built from scratch and hosted using GitHub Pages. The site showcases a small but growing portfolio of iOS apps I’ve designed, built, and published on the App Store. All apps are actively maintained and periodically updated, with new projects planned for the future.
 
