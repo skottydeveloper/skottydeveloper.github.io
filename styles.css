@@ -25,7 +25,8 @@ body {
     color: #000000;
 }
 
-.header h1 {
+.header h1,
+.header .hero-tagline {
     margin: 0;
     font-family: "Poppins", sans-serif;
     font-size: 30px;
@@ -78,7 +79,8 @@ main {
     align-items: center;
 }
 
-.section-inner h2 {
+.section-inner > h1,
+.section-inner > h2 {
     margin: 0;
     font-size: 19px;
     line-height: 26px;
@@ -101,7 +103,7 @@ main {
     width: 100%;
 }
 
-.section-inner h2:not(:first-child) {
+.section-inner > h2:not(:first-child) {
     margin-top: 64px;
 }
 
@@ -168,7 +170,7 @@ main {
     box-shadow: 0 1px 3px rgba(0,0,0,0.5);
 }
 
-.app-card h3 {
+.app-card h2 {
     margin: 0;
     font-size: 18px;
     line-height: 26px;
@@ -221,41 +223,4 @@ main {
 .footer .copyright {
     font-weight: 200;
     margin: 0 1px;
-}
-
-.social-icons {
-    margin-top: -2px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 4px;
-}
-
-.social-icons a {
-    width: 32px;
-    height: 32px;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 8px;
-    text-decoration: none;
-    transition: transform 0.2s ease, background 0.2s ease;
-}
-
-.social-icons a:hover img {
-    opacity: 1;
-}
-
-.social-icons a:focus-visible {
-    outline: 2px solid rgba(255,255,255,0.6);
-    outline-offset: 3px;
-}
-
-.social-icons img {
-    width: 19px;
-    height: 19px;
-    display: block;
-    opacity: 0.85;
-    filter: brightness(0) invert(1);
-    transition: opacity 0.2s ease, transform 0.2s ease;
 }
